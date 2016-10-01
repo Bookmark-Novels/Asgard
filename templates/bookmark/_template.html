@@ -4,8 +4,19 @@
         <title>{% block title %}{% endblock %}</title>
     </head>
     <body>
-        {% include '_header.html' %}
+        <header>
+            <div>
+                <h1>Bookmark</h1>
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Explore</a>
+                <a href="#">News</a>
+                <a href="#">Log In</a>
+                <a href="#">Sign Up</a>
+            </nav>
+        </header>
         {% block content %}{% endblock %}
-        {% include '_includes.html'}
+        {% include 'bookmark/_includes.html' %}
     </body>
 </html>

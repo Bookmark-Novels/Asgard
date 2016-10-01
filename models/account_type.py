@@ -1,7 +1,8 @@
 _account_types = {
     'ADMIN': 1,
     'NATIVE': 2,
-    'NOVEL_UPDATES': 3
+    'NOVEL_UPDATES': 3,
+    'GLOBAL_MOD': 4
 }
 
 class AccountTypeMeta(type):

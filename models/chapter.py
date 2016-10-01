@@ -18,5 +18,8 @@ class Chapter(Model):
     allow_patreon = Column(Boolean)
     minimum_pledge = Column(Integer)
     summary = Column(String, length=25000)
+    teaser = Column(String, length=25000)
     views = Column(BigInteger, default=0)
+    allow_comments = Column(Boolean, default=True)
+    require_comment_verification = Column(Boolean, default=False)
     site_id = Column(Integer)

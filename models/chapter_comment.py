@@ -11,5 +11,6 @@ class ChapterComment(Model):
     chapter_id = Column(Integer)
     author_id = Column(Integer)
     last_updated = Column(DateTime)
-    pending_verification = Column(Boolean)
+    timestamp = Column(DateTime)
+    pending_verification = Column(Boolean, default=False)
     comment = Column(String, length=40000)

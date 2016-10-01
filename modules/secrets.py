@@ -1,7 +1,7 @@
 import os
 import json
 
-from object import Object
+from .object import Object
 
 secrets = Object()
 

@@ -7,3 +7,5 @@ Bookmark is a free and open-source platform for publishing web novels.
 ## Note to Contributors
 
 If you are a team member, please be sure to use the latest version of `dev`. Always work on `dev-xxx` where `xxx` is your GitHub username.
+
+If you are not a team member, please be sure to fork and work off of the latest version of `dev`.
